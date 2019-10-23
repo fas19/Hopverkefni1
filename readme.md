@@ -1,3 +1,6 @@
+npm install
+npm run dev
+
 # Hópverkefni 1
 
 Verkefnið felst í því að smíða vef eftir forskrift.
