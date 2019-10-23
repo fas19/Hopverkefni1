@@ -1,4 +1,5 @@
-@import "scss/config";
+
+@import "config";
 
 * {
   padding: 0;
@@ -20,5 +21,7 @@ html { /* stylelint-disable-line */
 
 
 
+
+
 // TODO sækja allar sass skrár
-@import "scss/...";
+@import "navbar";

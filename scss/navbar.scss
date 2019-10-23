@@ -1,0 +1,30 @@
+
+.Navbar{
+    width: 100%;
+    background-color:orange;
+    height: 25vh;
+   
+    
+
+    .titill{
+        font-size: 36px;
+        text-align:center;
+        padding-bottom: 20px;
+    }
+    
+
+    .linkar{
+        display:flex;
+        flex-wrap: wrap;
+     
+       
+        list-style-type: none;
+        
+    }
+    .linkur{
+        justify-content: space-evenly;
+       width:20%;
+        size:72px;
+    }
+
+}

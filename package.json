@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "browser-sync": "browser-sync start --server --files index.html styles.css",
     "sass": "node-sass styles.scss styles.css",
-    "sass-watch": "node-sass --source-map-embed --watch styles.scss styles.css",
+    "sass-watch": "node-sass --source-map-embed -w scss/styles.scss styles.css",
     "dev": "npm-run-all --parallel sass-watch browser-sync",
     "lint": "stylelint styles.scss --syntax scss"
   },
