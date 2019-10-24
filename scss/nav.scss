@@ -7,18 +7,37 @@
         align-items: center;
         justify-content: center;
         list-style: none;
+        padding-bottom:0.8em;
        
     }
 
     &__item{
         padding-left: 1em;
         padding-right:1em;
+        font-size:1.4em;
         
         
     }
 
     &__karfa{
-        justify-content: flex-end;
+        text-align: center;
+        padding-bottom:1em;
+
+        
+    }
+
+    &__link{
+        color:black;
+
+        &:hover{
+            color:white;
+        }
+    }
+
+    &__takki{
+        background-image: url("img/cart.svg");
+        background-repeat: no-repeat;
+        padding-left:30px;
     }
 
     

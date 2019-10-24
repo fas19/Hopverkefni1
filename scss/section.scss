@@ -1,24 +1,51 @@
 .section{
     display:flex;
     flex-wrap: wrap;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+
+  
 
     &__col{
-        width:100%;
+        flex-basis:200px;
+        flex-grow: 1;
+        flex-shrink:1;
+        
         
     
     }
     &__content{
         overflow:hidden;
-        display:flex;
-        flex-direction: column;
+        padding-bottom:1.5em;
+        padding-top:1.5em;
+
     }
 
     &__button{
+        width:50%;
+        height:3em;
+        background-color: lightskyblue;
        
     }
     &__img{
         max-width:100%;
         object-fit: cover;
     }
+
+    &__title{
+        font-size:3em;
+        text-align: left;
+        padding-top:0.7em;
+        padding-bottom: 0.7em;
+    }
+
+    &__text{
+        font-size:1.5em;
+        padding-bottom: 0.7em;
+    }
+    &__link{
+        color:black;
+        text-decoration: none;
+    }
+
 }
