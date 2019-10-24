@@ -1,0 +1,27 @@
+.staff{
+    &__container{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    
+    &__card{
+        width:100%;
+    }
+/*
+    &__front{
+        
+    }
+    &__back{
+        
+
+
+    }
+    &__content{
+
+    }
+    */
+    &__img{
+        width: 100%;
+    }
+
+}
