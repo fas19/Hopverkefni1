@@ -1,3 +1,7 @@
+`git clone url`
+
+Svo inn í möppuna sjalfa og gera
+
 `npm install`
 
 `npm run dev`
