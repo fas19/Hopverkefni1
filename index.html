@@ -1,45 +1,72 @@
 <!doctype html>
 <html lang="is">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Vöruhúsið</title>
 
-    <link rel="stylesheet" href="grid.css">
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <div class="Navbar">
-      <p class="Navbar__titill titill">Prílihúsið</p>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vöruhúsið</title>
 
-      <ul class="Navbar__linkar linkar">
-        <a class="linkar__linkur linkur" href="index.html">Forsíða</a>
-        <a class="linkar__linkur linkur" href="pages/products.html">Vörur</a>
-        <a class="linkar__linkur linkur" href="pages/course.html"> Námskeið</a>
-        <a class="linkar__linkur linkur" href="pages/staff.html">Starfsfólk</a>
-      </ul>
-      <div class="Karfa">
-        <ul>
-            <li class="linkar_linkur linkur karfa" href="pages/cart.html">Karfa</li>
-        </ul>
-      </div>
-    </div>
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-    <div class="Container-forsíða">
-      <div class="Container-forsíða__item-forsíða item-forsíða">
-        <div class="item-forsíða__titill">
-          <p>Allar vörurnar</p>
-          <p>Prílihúsið hefur allar þær vörur sem þig vantar fyrir klifrið.</p>
-          <button a href="pages/products">Skoða vörur</button>
+<body>
+
+  <!--  Header  -->
+
+
+  <header class="header">
+    <div class="header__content">
+      <h1 class="header__title">Prílihúsið</h1>
+
+      <nav class="nav">
+        <div class="nav__row">
+
+          <ul class="nav__list">
+            <li class="nav__item"><a href="index.html" class="nav__link">Forsíða</a></li>
+            <li class="nav__item"><a href="pages/products.html" class="nav__link">Vörur</a></li>
+            <li class="nav__item"><a href="pages.course.html" class="nav__link">Námskeið</a></li>
+            <li class="nav__item"><a href="pages/staff.html" class="nav__link">Starfsfólk</a></li>
+          </ul>
         </div>
-      </div>
-      <div class="Container-forsíða__item-forsíða item-forsíða">
-          <img src="img/climbing-store.jpg" alt="Klifurbúð">
-      </div>
-      <div class="Container-forsíða__item-forsíða item-forsíða"></div>
-      <div class="Container-forsíða__item-forsíða item-forsíða"></div>
+        <div class="nav__karfa">
+
+          <a class="nav__takki" href="pages/cart.html">Karfa (6)</a>
+        </div>
+      </nav>
     </div>
+  </header>
 
 
-  </body>
+  <!--   Content  -->
+
+  <div class="section">
+    <div class="section__col">
+      <div class="section__content">
+        <h2 class="section__title">Allar vörurnar</h2>
+        <p class="section__text">Prílihúsið hefur allar þær vörur sem þig vantar fyrir klifrið.</p>
+        <a href="pages/products.html" class="section__button">Skoða vörur</button>
+      </div>
+    </div>
+    <div class="section__col">
+      <img class= "section__img" src="img/climbing-store.jpg" alt="Klifurbuð">
+    </div>
+    <div class="section__col">
+      <div class="section__content">
+        <h2 class="section__title">Besta starfsfólkið</h2>
+        <p class="section__text">Starfsfólkið okkar hugsar vel um þig.</p>
+        <button class="section__button"><a href="pages/staff.html" class="section__link">Kynnast starfsfólki</a></button>
+      </div>
+    </div>
+    <div class="section__col">
+      <img class= "section__img" src="img/team.jpg" alt="Liðsheild">
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+
+</body>
+
 </html>

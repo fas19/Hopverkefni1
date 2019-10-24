@@ -1,0 +1,20 @@
+
+.header{
+    background-color: orange;
+
+    &__content{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    
+    &__title{
+        text-align: center;
+        
+    }
+
+    &__takki{
+        justify-content: flex-end;
+    }
+    }
+

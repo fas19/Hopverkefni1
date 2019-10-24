@@ -1,0 +1,25 @@
+.nav{
+
+
+    &__list{
+        display:flex;
+        flex-wrap:wrap;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+       
+    }
+
+    &__item{
+        padding-left: 1em;
+        padding-right:1em;
+        
+        
+    }
+
+    &__karfa{
+        justify-content: flex-end;
+    }
+
+    
+}
