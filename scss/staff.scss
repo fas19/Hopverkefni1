@@ -1,15 +1,18 @@
 .staff{
 display:flex;
 flex-wrap: wrap;
+padding-bottom: 2em;
     &__employee{
-   
         position: relative;
         overflow:hidden;
-        width:100vw;
+        width:80vw;
         height:100vmin;
+        display:flex;
+        justify-content: center;
+        align-items: center;
          
         @media(min-width: 800px){
-            width:48vw;
+            width:40vw;
         }
         
     }
@@ -18,13 +21,17 @@ flex-wrap: wrap;
         display:flex;
         flex-wrap:wrap;
         width:100%;
+        align-items: center;
+        justify-content: center;
     }
     
 
     &__container{
      width:100%;
      height:100%;
-     display:block;
+   
+     align-items: center;
+     justify-content: center;
      
     }
 
