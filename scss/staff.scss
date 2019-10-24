@@ -1,27 +1,77 @@
 .staff{
-    &__container{
+display:flex;
+flex-wrap: wrap;
+    &__employee{
+   
+        position: relative;
+        overflow:hidden;
+        width:100vw;
+        height:100vmin;
+         
+        @media(min-width: 800px){
+            width:48vw;
+        }
+        
+    }
+
+    &__section{
         display:flex;
         flex-wrap:wrap;
-    }
-    
-    &__card{
         width:100%;
     }
-/*
-    &__front{
-        
-    }
-    &__back{
-        
+    
 
+    &__container{
+     width:100%;
+     height:100%;
+     display:block;
+     
+    }
+
+    &__card{
+        position:absolute;
+        width:100%;
+        height:100%;
+        transition: transform 200ms ease-in-out;
+        transform-style: preserve-3d;
+        padding:1em;
 
     }
-    &__content{
 
-    }
-    */
-    &__img{
+    &__front, &__back{
         width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        position: absolute;
+      
+    }
+ 
+    &__back{
+        background-color: white;
+        color: black;
+        display:flex;
+        justify-content: center;
+        align-content:center;
+      
+        transform:  rotateY(180deg);
+   
+    }
+
+    &__card:hover{
+        transform: rotateY(180deg);
+    }
+    
+    &__img{
+        width:100%;
+        height:100%;
+        
+    }
+
+    &__content{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;
     }
 
 }
