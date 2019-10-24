@@ -1,0 +1,47 @@
+.course{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2em;
+
+    &__container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        flex:1;
+        width: 100%;
+    }
+    &__cards{
+        margin:auto;
+        width:100%;
+        padding-top:2em;
+        padding-bottom:2em;
+        
+        @media (min-width:800px){
+            width:48vw;
+        }
+    }
+    &__img{
+        width:100%;
+    }
+
+
+    &__title{
+        font-size:3rem;
+    }
+    &__text{
+        font-size:1.5rem;
+    }
+
+    &__label{
+        font-size:1.5rem;
+    }
+
+    &__button{
+        width:50%;
+        height:3em;
+        background-color: lightskyblue;
+    
+    }
+}
