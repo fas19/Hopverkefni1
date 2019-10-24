@@ -1,4 +1,5 @@
 `npm install
+
 npm run dev`
 
 # Hópverkefni 1
