@@ -2,11 +2,16 @@
 
 .header{
     background-color: $appelsinugulur;
-
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
     &__content{
         display:flex;
         flex-direction: column;
         justify-content:center;
+        max-width:1200px;
+        width:100%;
     }
     
     &__title{

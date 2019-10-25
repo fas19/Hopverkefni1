@@ -84,13 +84,17 @@
 
     &__button{
         width:35%;
-        background-image: url("../img/chart.svg");
+        background-image: url("img/chart.svg");
         background-repeat: no-repeat;
         background-position: -5px 50%;
         background-size: 20px;
         padding-left: 20px;
         border: 1px solid $svartur;
         display:flex;
+
+        &:hover{
+            background-color:$ljosblar;
+        }
     }
     &__textinput0{
         width:25%;
@@ -135,10 +139,31 @@
         padding-left: 0.5rem;
         padding-right: 0.5rem;
     }
+    &__box2{
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding:$gutter1;
+    }
+    &__button2{
+        width:50%;
+        height:3em;
+        background-color: $ljosblar;
+      
+       &:hover{
+           background-color: $appelsinugulur;
+       }
+       @media(min-width: 800px){
+           width:33%;
+       }
+       @media(min-width: 1200px){
+           width:250px;
+       }
 
 
 
-
+    }
 
 
 

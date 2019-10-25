@@ -84,16 +84,18 @@ width:100%;
     
     &__button{
         width:35%;
-        background-image: url("../img/chart.svg");
+        background-image: url("img/chart.svg");
         background-repeat: no-repeat;
-        background-position: -5px 50%;
+        background-position: 0px 50%;
         background-size: 20px;
         padding-left: 20px;
         border: 1px solid $svartur;
-      
-        
-       
         display:flex;
+
+        &:hover{
+            background-color: $ljosblar;
+        }
+  
         
   
     }

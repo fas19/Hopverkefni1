@@ -5,8 +5,8 @@ display:flex;
 flex-wrap: wrap;
 justify-content: center;
 padding-bottom: 2em;
-padding-left:$gutter1;
-padding-right:$gutter1;
+padding-left: $gutter1;
+padding-right :$gutter1;
 
     &__employee{
         position: relative;
@@ -95,8 +95,13 @@ padding-right:$gutter1;
         padding-top:2em;
         flex-wrap: wrap;
         word-break: keep-all;
-        width:50%;
-        font-size:1.2rem;
+        width:70%;
+        font-size:1.25rem;
+        font-family: $sans;
+    }
+    &__title{
+        font-family: $oswald;
+        font-size:1.5rem;
     }
 
 }

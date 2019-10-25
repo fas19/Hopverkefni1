@@ -9,7 +9,7 @@
     "sass": "node-sass styles.scss styles.css",
     "sass-watch": "node-sass --source-map-embed -w scss/styles.scss styles.css",
     "dev": "npm-run-all --parallel sass-watch browser-sync",
-    "lint": "stylelint styles.scss --syntax scss"
+    "lint": "stylelint scss/styles.scss --syntax scss"
   },
   "repository": {
     "type": "git",
