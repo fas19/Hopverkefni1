@@ -2,7 +2,7 @@
 
 ## Keyrsla
 
-Fyrst skal klóna verkefnið með `git clone url` Því næst skal staðsetja sig inn í möppu verkefnisins í command prompt og keyra skipunina `npm install` til að ná í alla aukapakka sem verkefnið notar. Þá skal nota skipunina `npm run dev`  til að keyra síðuna í vafra.
+Fyrst skal klóna verkefnið með `git clone url`. Því næst skal staðsetja sig inn í möppu verkefnisins í command prompt og keyra skipunina `npm install` til að ná í alla aukapakka sem verkefnið notar. Þá skal nota skipunina `npm run dev`  til að keyra síðuna í vafra.
 
 
 ## Hópurinn
