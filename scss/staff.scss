@@ -1,18 +1,27 @@
+
+
 .staff{
 display:flex;
 flex-wrap: wrap;
+justify-content: center;
 padding-bottom: 2em;
+padding-left:$gutter1;
+padding-right:$gutter1;
+
     &__employee{
         position: relative;
         overflow:hidden;
-        width:80vw;
-        height:100vmin;
+        width:100vw;
+        height:75vmin;
         display:flex;
         justify-content: center;
         align-items: center;
          
         @media(min-width: 800px){
             width:40vw;
+        }
+        @media(min-width:1200px){
+            width:575px;
         }
         
     }
@@ -23,6 +32,7 @@ padding-bottom: 2em;
         width:100%;
         align-items: center;
         justify-content: center;
+        max-width: 1200px;
     }
     
 

@@ -8,6 +8,7 @@
     <title>Námskeið</title>
     <link rel="stylesheet" href="../grid.css">
     <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,600" rel="stylesheet">
 </head>
 
 <body>
@@ -29,7 +30,7 @@
                         <li class="nav__item"><a href="staff.html" class="nav__link">Starfsfólk</a></li>
                     </ul>
                     <div class="nav__karfa">
-                        <a class="nav__takki" href="cart.html">Karfa (6)</a>
+                        <button class="nav__takki"><a href="cart.html">Karfa (6)</a></button>
                     </div>
                 </div>
             </nav>
@@ -41,71 +42,87 @@
 
 
     <div class="course">
-        <div class="course__container">
-            <div class="course__cards">
-                <h2 class="course__title">Námskeið</h2>
-                <p class="course__text">Prílihúsið býður upp á fjölbreytt námskeið fyrir byrjendur og lengra komna.
-                    Námskeiðin eru kennd af engri annarri en Karítas Pétursdóttir. Fyrir fólk á öllum aldri. Skráðu þig
-                    núna!</p>
-            </div>
-
-            <div class="course__cards">
-                <img class="course__img" src="../img/climbing-gym.jpg" alt="Klifursvæði">
-            </div>
-            <div class="course__cards">
-                <h2 class="course__title">Almennar upplýsingar</h2>
-                <div class="course__form">
-                    <label class="course__label">Nafn:</label>
-                    <input class="course__nafn" type="text"><br>
-                    <label class="course__label">Heimilsfang:</label>
-                    <input class="course__heimilsfang" type="text"><br>
-                    <label class="course__label">Aldur:</label>
-                    <input class="course__aldur" type="text"><br>
-                    <label class="course__label">Námskeið</label>
-                    <select>
-                        <option>V0 - V1</option>
-                        <option>V2 - V4</option>
-                        <option>V5 - V7</option>
-                        <option>Krakkanámskeið</option>
-                        <option>Fjallaklifur</option>
-                    </select>
+        <div class="course__box">
+            <div class="course__container">
+                <div class="course__cards">
+                    <h2 class="course__title">Námskeið</h2>
+                    <p class="course__text">Prílihúsið býður upp á fjölbreytt námskeið fyrir byrjendur og lengra komna.
+                        Námskeiðin eru kennd af engri annarri en Karítas Pétursdóttir. Fyrir fólk á öllum aldri. Skráðu þig
+                        núna!</p>
                 </div>
-            </div>
-            <div class="course__cards">
-                <h2 class="course__title">Greiðsluupplýsingar</h2>
-                <div class="course__form">
-                    <label class="course__label">Kortanúmer:</label>
-                    <input class="course__kortanúmer" type="text"><br>
-                    <label class="course__label">Korthafi:</label>
-                    <input class="course__heimilsfang" type="text"><br>
-                    <label class="course__label">Gildistími:</label>
-                    <label class="course__label">Mán</label>
-                    <select>
-                        <option>01</option>
-                        <option>02</option>
-                        <option>03</option>
-                        <option>04</option>
-                        <option>05</option>
-                        <option>06</option>
-                        <option>07</option>
-                        <option>08</option>
-                        <option>09</option>
-                        <option>10</option>
-                        <option>11</option>
-                        <option>12</option>
-                    </select>
-                    <label class="course__label">Ár</label>
-                    <select>
-                        <option>2019</option>
-                        <option>2020</option>
-                        <option>2021</option>
-                        <option>2022</option>
-                    </select>
+            
+                <div class="course__cards">
+                    <img class="course__img" src="../img/climbing-gym.jpg" alt="Klifursvæði">
                 </div>
+                <div class="course__cards">
+                    <h2 class="course__title">Almennar upplýsingar</h2>
+                    <div class="course__form">
+                        <div class="course__row">
+                            <label class="course__label">Nafn:</label>
+                            <input class="course__textinput" type="text">
+                        </div>
+                        <div class="course__row">
+                            <label class="course__label">Heimilsfang:</label>
+                            <input class="course__textinput" type="text">
+                        </div>
+                        <div class="course__row">
+                            <label class="course__label">Aldur:</label>
+                            <input class="course__textinput" type="text">
+                        </div>
+                        <div class="course__row">
+                            <label class="course__label">Námskeið</label>
+                            <select class="course__textinput">
+                                <option>V0 - V1</option>
+                                <option>V2 - V4</option>
+                                <option>V5 - V7</option>
+                                <option>Krakkanámskeið</option>
+                                <option>Fjallaklifur</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="course__cards">
+                    <h2 class="course__title">Greiðsluupplýsingar</h2>
+                    <div class="course__form">
+                        <div class="course__row">
+                            <label class="course__label">Kortanúmer:</label>
+                            <input class="course__textinput" type="text">
+                        </div>
+                        <div class="course__row">
+                            <label class="course__label">Korthafi:</label>
+                            <input class="course__textinput" type="text">
+                        </div>
+                        <div class="course__row">
+                            <label class="course__label">Gildistími:</label>
+                            <label class="course__label2">Mán</label>
+                            <select class="course__textinput2">
+                                <option>01</option>
+                                <option>02</option>
+                                <option>03</option>
+                                <option>04</option>
+                                <option>05</option>
+                                <option>06</option>
+                                <option>07</option>
+                                <option>08</option>
+                                <option>09</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                            </select>
+                            <label class="course__label2">Ár</label>
+                            <select class="course__textinput2">
+                                <option>2019</option>
+                                <option>2020</option>
+                                <option>2021</option>
+                                <option>2022</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            
             </div>
-
+            <button class="course__button">Skrá</button>
         </div>
-        <button class="course__button">Skrá</button>
     </div>
 
 
