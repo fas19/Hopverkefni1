@@ -80,5 +80,13 @@ padding-bottom: 2em;
         justify-content:center;
         flex-direction:column;
     }
+    &__text{
+        display:flex;
+        padding-top:2em;
+        flex-wrap: wrap;
+        word-break: keep-all;
+        width:50%;
+        font-size:1.2rem;
+    }
 
 }
