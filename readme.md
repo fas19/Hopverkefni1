@@ -1,10 +1,20 @@
-`git clone url`
+# Hópverkefni 1
 
-Svo inn í möppuna sjalfa og gera
+## Keyrsla
 
-`npm install`
+Keyra skal verkefnið með því að opna staðsetningu skjals í skel (Command Promt, Bash, eða sambærilegu forriti) og keyra skipunina `npm install`. Þá skal nota skipunina `npm run dev` eða `npm run browser-sync` til að keyra síðuna í vafra.
 
-`npm run dev`
+
+## Hópurinn
+
+Fannar Sævarsson        -   fas19@hi.is
+
+Gísli Ragnar Axelsson   -   gra6@hi.is
+
+
+---
+---
+---
 
 # Hópverkefni 1
 
