@@ -2,7 +2,7 @@
 
 ## Keyrsla
 
-Keyra skal verkefnið með því að opna staðsetningu skjals í skel (Command Promt, Bash, eða sambærilegu forriti) og keyra skipunina `npm install`. Þá skal nota skipunina `npm run dev` eða `npm run browser-sync` til að keyra síðuna í vafra.
+Fyrst skal klóna verkefnið með `git clone url` Því næst skal staðsetja sig inn í möppu verkefnisins í command prompt og keyra skipunina `npm install` til að ná í alla aukapakka sem verkefnið notar. Þá skal nota skipunina `npm run dev`  til að keyra síðuna í vafra.
 
 
 ## Hópurinn
